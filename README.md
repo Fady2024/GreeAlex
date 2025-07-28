@@ -6,7 +6,17 @@
   **Building a sustainable future with cutting-edge technology and environmental consciousness**
   
   [![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
+  [![TypeScript](https://img.s## 📞 Suppo## 📞 Support & Contact
+
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Fady2024/GreeAlex/issues)
+- **Developer Email**: [fadygerges2023@gmail.com](mailto:fadygerges2023@gmail.com)
+- **GitHub Profile**: [@Fady2024](https://github.com/Fady2024)
+- **Project Repository**: [GreeAlex](https://github.com/Fady2024/GreeAlex)Contact
+
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Fady2024/GreeAlex/issues)
+- **Developer**: [Fady Gerges](https://github.com/Fady2024)
+- **Repository**: [GreeAlex Project](https://github.com/Fady2024/GreeAlex)
+- **Email**: fady.gerges.dev@gmail.coms.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
   [![Vite](https://img.shields.io/badge/Vite-5.x-646CFF.svg)](https://vitejs.dev/)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-06B6D4.svg)](https://tailwindcss.com/)
   [![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-Latest-000000.svg)](https://ui.shadcn.com/)
@@ -343,13 +353,31 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
+**Special Thanks to the Amazing Developer:**
+- **Fady Gerges** - The visionary developer who single-handedly created this environmental masterpiece
+
+**Technology Credits:**
 - **shadcn/ui** - For the beautiful UI components
 - **Tailwind CSS** - For the utility-first CSS framework
 - **Lucide** - For the comprehensive icon library
 - **React Team** - For the amazing framework
 - **Vite Team** - For the fast build tool
 
-## 📞 Support & Contact
+*This project stands as a testament to what passionate individual developers can achieve when they combine technical excellence with environmental consciousness.*
+
+## �‍💻 About the Developer
+
+**Fady Gerges** is a passionate full-stack developer and environmental advocate who created GreeAlex to bridge the gap between technology and sustainability. With expertise in modern web technologies and a deep commitment to environmental causes, Fady designed this platform to make sustainable living accessible and rewarding for everyone.
+
+### 🌟 Developer's Vision
+*"Technology should serve humanity and our planet. GreeAlex represents my commitment to using cutting-edge development skills to create meaningful environmental impact."* - Fady Gerges
+
+**Connect with Fady:**
+- **GitHub**: [@Fady2024](https://github.com/Fady2024)
+- **Email**: [fadygerges2023@gmail.com](mailto:fadygerges2023@gmail.com)
+- **Project Repository**: [GreeAlex](https://github.com/Fady2024/GreeAlex)
+
+## �📞 Support & Contact
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/Fady2024/GreeAlex/issues)
 - **Email**: support@greealex.com
@@ -360,7 +388,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <p><strong>🌱 Together, we can create a cleaner, greener, and more sustainable planet for future generations! 🌍</strong></p>
   
-  Made with ❤️ by the GreeAlex Team
+  **Created with ❤️ and passion by [Fady Gerges](https://github.com/Fady2024)**
+  
+  *A masterpiece of sustainable technology and environmental consciousness*
 </div>
 
 ## 🚀 Commands
