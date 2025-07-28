@@ -1,0 +1,329 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom animations for sustainability theme */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes float-delayed {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(5deg);
+  }
+}
+
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.05);
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(34, 197, 94, 0.6);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(34, 197, 94, 0.6);
+  }
+}
+
+/* Performance optimizations */
+.animate-optimized {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.transition-bounce {
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(34, 197, 94, 0);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
+
+/* Gradient text animation */
+.gradient-text-animate {
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #22c55e, #16a34a);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #16a34a, #15803d);
+}
+ 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+ 
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+ 
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+ 
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+ 
+    --primary: 142 55% 39%;
+    --primary-foreground: 210 40% 98%;
+ 
+    --secondary: 154 61% 27%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+ 
+    --accent: 142 67% 57%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+ 
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --ring: 215 20.2% 65.1%;
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+ 
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+ 
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+ 
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+ 
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+ 
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+ 
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+ 
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+ 
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --ring: 216 34% 17%;
+ 
+    --radius: 0.5rem;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Import Poppins font and Arabic-friendly fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+
+/* Apply Poppins to all elements */
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Arabic text specific styling */
+[dir="rtl"] {
+  font-family: 'Noto Sans Arabic', 'Poppins', 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+}
+
+/* Large Arabic text styling to prevent clipping */
+[dir="rtl"] h1,
+[dir="rtl"] .text-7xl,
+[dir="rtl"] .text-8xl,
+[dir="rtl"] .text-9xl {
+  line-height: 1.5 !important;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+/* Arabic title specific adjustments */
+[dir="rtl"] h1 {
+  letter-spacing: 0.02em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Additional spacing for better Arabic text rendering */
+[dir="rtl"] .bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding: 0.3em 0;
+  display: block;
+  overflow: visible;
+}
