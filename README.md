@@ -2,27 +2,32 @@
 
 <div align="center">
   <img src="public/favicon.svg" alt="GreeAlex Logo" width="120" height="120">
-  
-  **Building a sustainable future with cutting-edge technology and environmental consciousness**
-  
-  [![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
-  [![TypeScript](https://img.s## 📞 Suppo## 📞 Support & Contact
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/Fady2024/GreeAlex/issues)
-- **Developer Email**: [fadygerges2023@gmail.com](mailto:fadygerges2023@gmail.com)
-- **GitHub Profile**: [@Fady2024](https://github.com/Fady2024)
-- **Project Repository**: [GreeAlex](https://github.com/Fady2024/GreeAlex)Contact
+  <strong>Building a sustainable future with cutting-edge technology and environmental consciousness</strong>
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/Fady2024/GreeAlex/issues)
-- **Developer**: [Fady Gerges](https://github.com/Fady2024)
-- **Repository**: [GreeAlex Project](https://github.com/Fady2024/GreeAlex)
-- **Email**: fady.gerges.dev@gmail.coms.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
-  [![Vite](https://img.shields.io/badge/Vite-5.x-646CFF.svg)](https://vitejs.dev/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-06B6D4.svg)](https://tailwindcss.com/)
-  [![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-Latest-000000.svg)](https://ui.shadcn.com/)
-  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+  <p>
+    <a href="https://reactjs.org/">
+      <img src="https://img.shields.io/badge/React-18.x-blue.svg" alt="React Badge" />
+    </a>
+    <a href="https://www.typescriptlang.org/">
+      <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6.svg" alt="TypeScript Badge" />
+    </a>
+    <a href="https://vitejs.dev/">
+      <img src="https://img.shields.io/badge/Vite-5.x-646CFF.svg" alt="Vite Badge" />
+    </a>
+    <a href="https://tailwindcss.com/">
+      <img src="https://img.shields.io/badge/Tailwind-3.x-06B6D4.svg" alt="Tailwind Badge" />
+    </a>
+    <a href="https://ui.shadcn.com/">
+      <img src="https://img.shields.io/badge/shadcn%2Fui-Latest-000000.svg" alt="shadcn/ui Badge" />
+    </a>
+    <a href="./LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License Badge" />
+    </a>
+  </p>
 </div>
 
+---
 ## 🚀 Overview
 
 GreeAlex is a comprehensive environmental sustainability platform that connects users with eco-friendly actions, rewards sustainable behavior, and partners with organizations to create a greener future. The platform features bilingual support (Arabic/English), gamification elements, and partnerships with leading environmental organizations.
@@ -377,13 +382,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Email**: [fadygerges2023@gmail.com](mailto:fadygerges2023@gmail.com)
 - **Project Repository**: [GreeAlex](https://github.com/Fady2024/GreeAlex)
 
-## �📞 Support & Contact
+## 📬 Contact & Feedback
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/Fady2024/GreeAlex/issues)
-- **Email**: support@greealex.com
-- **Website**: [www.greealex.com](https://www.greealex.com)
-
----
+- **Bug Reports / Feature Requests**: [GitHub Issues](https://github.com/Fady2024/GreeAlex/issues)
+- **Developer Contact**: [fadygerges2023@gmail.com](mailto:fadygerges2023@gmail.com)
+- **Live Site**: [gree-alex.vercel.app](https://gree-alex.vercel.app/)
 
 <div align="center">
   <p><strong>🌱 Together, we can create a cleaner, greener, and more sustainable planet for future generations! 🌍</strong></p>
